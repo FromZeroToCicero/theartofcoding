@@ -3,9 +3,9 @@ module.exports = {
     title: "The Art of Coding",
     description:
       "The Art of Coding is an online community of web professionals. We enjoy sharing our love for creating incredible internet things. Learn Web Design & Development with our tutorials, courses and books - HTML5, CSS3, JavaScript, PHP, mobile app development, Responsive Web Design.",
-    author: "Mircea Sima",
-    image: "/images/defaultImg.jpeg",
-    // siteUrl: "https://fromzerotocicero-backroads.netlify.com",
+    author: "Mircea Sima",
+    image: "/defaultImg.jpeg",
+    siteUrl: "https://fromzerotocicero-theartofcoding.netlify.com/",
   },
   plugins: [
     "gatsby-transformer-sharp",

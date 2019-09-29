@@ -5,6 +5,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 import Layout from "../components/Layout"
+import SEO from "../components/SEO"
 
 import styles from "../css/postTemplate.module.css"
 
@@ -15,6 +16,7 @@ const PostTemplate = ({ data }) => {
 
   return (
     <Layout>
+      <SEO title={title} />
       <section className={styles.template}>
         <AniLink fade to="/" className={styles.link}>
           Back to all posts

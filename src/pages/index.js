@@ -3,6 +3,7 @@ import { graphql, useStaticQuery } from "gatsby"
 
 import Layout from "../components/Layout"
 import PostList from "../components/PostList"
+import SEO from "../components/SEO"
 
 const getPosts = graphql`
   query {
@@ -36,6 +37,7 @@ export default () => {
 
   return (
     <Layout>
+      <SEO title="Home" />
       <PostList posts={posts} />
     </Layout>
   )
